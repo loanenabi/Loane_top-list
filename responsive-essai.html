@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		body { font-family: system-ui; }
+
+
+			.row { display: flex; gap: 1rem; }
+			.row > * { flex: 1;}
+			.row{max-width: 1200px; margin: auto;}
+
+
+			/* version mobile */
+			@media (max-width: 640px) {
+				.row { flex-direction: column; }
+			}
+
+			
+		
+		/* version desktop */
+		/* @media ( min-width: 500px) {
+			.row { display: flex; gap: 1rem; }
+			.row > * { flex: 1;}
+			} */
+
+		
+		/*  
+		@media (min-width:666px) {
+			body { background: pink; }
+		}
+
+		@media ( max-width: 500px) {
+			body { color: magenta; }
+		}
+*/
+
+	</style>
+</head>
+<body>
+	
+<div class="row">
+	<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quidem quos porro nemo tenetur? Assumenda delectus eius facere fugiat, sed laudantium iste optio, perferendis aut iure est officia dicta dignissimos.	</div>
+	<div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet fugit ipsa illo et ducimus eaque sunt dolorum quia rerum distinctio, iure est corporis quo. Earum sit perspiciatis corrupti libero sequi?</div>
+
+</div>
+
+</body>
+</html>
